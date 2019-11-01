@@ -1,0 +1,11 @@
+%²åÖµº¯Êý
+Parameters11;
+Solve_rho=@(y)(1.225*exp(-y/10700));
+Solve_Cx=@(Alpha,V)interp2(AlphaL,MaL,CxA,Alpha,V/v_s);
+%Cx=Solve_Cx(Alpha,V)
+Solve_Cy=@(Alpha,V)interp2(AlphaL,MaL,CyA,Alpha,V/v_s);
+%Cy=Solve_Cy(Alpha,V)
+Solve_mc=@(t)interp1(tmc,mcL,t);
+%mc=Solve_mc(t)
+Solve_mzAlpha=@(Alpha,V)interp2(AlphaL,MaL,mzAlphaL,Alpha,V/v_s);
+%mzAlpha=Solve_mzAlpha(Alpha,V)
