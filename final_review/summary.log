@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.10.25)  13 DEC 2019 09:40
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.10.25)  18 DEC 2019 10:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1126,14 +1126,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (./summary.aux
-
-LaTeX Warning: Label `wall_part' multiply defined.
-
-
-LaTeX Warning: Label `wall_part' multiply defined.
-
-)
+)) (./summary.aux)
 \openout1 = `summary.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -1327,28 +1320,50 @@ File: pictures/chapter3/2.png Graphic file (type bmp)
 <pictures/chapter3/2.png>
 File: pictures/chapter3/3.png Graphic file (type bmp)
 <pictures/chapter3/3.png>
- [6]) (./chapter/chapter8.tex [7]
+File: pictures/chapter3/4.png Graphic file (type bmp)
+<pictures/chapter3/4.png>
+ [6]
+File: pictures/chapter3/5.png Graphic file (type bmp)
+<pictures/chapter3/5.png>
+File: pictures/chapter3/6.png Graphic file (type bmp)
+<pictures/chapter3/6.png>
+File: pictures/chapter3/7.png Graphic file (type bmp)
+<pictures/chapter3/7.png>
+ [7]
+File: pictures/chapter3/8.png Graphic file (type bmp)
+<pictures/chapter3/8.png>
+File: pictures/chapter3/9.png Graphic file (type bmp)
+<pictures/chapter3/9.png>
+ [8]
+File: pictures/chapter3/10.png Graphic file (type bmp)
+<pictures/chapter3/10.png>
+File: pictures/chapter3/11.png Graphic file (type bmp)
+<pictures/chapter3/11.png>
+ [9]
+File: pictures/chapter3/12.png Graphic file (type bmp)
+<pictures/chapter3/12.png>
+File: pictures/chapter3/13.png Graphic file (type bmp)
+<pictures/chapter3/13.png>
+File: pictures/chapter3/14.png Graphic file (type bmp)
+<pictures/chapter3/14.png>
+ [10]) (./chapter/chapter8.tex [11]
 Chapter 4.
 File: pictures/chapter8/2_order.pdf Graphic file (type pdf)
 <use pictures/chapter8/2_order.pdf>
-[8
+[12
 
 ]
 Missing character: There is no 、 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 或 in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no 者 in font [lmroman10-regular]:mapping=tex-text;!
-) [9] (./summary.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+) [13] (./summary.aux) ) 
 Here is how much of TeX's memory you used:
- 16301 strings out of 492970
- 377236 string characters out of 6137297
- 435969 words of memory out of 5000000
- 20099 multiletter control sequences out of 15000+600000
+ 16358 strings out of 492970
+ 378375 string characters out of 6137297
+ 436071 words of memory out of 5000000
+ 20145 multiletter control sequences out of 15000+600000
  538078 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,11n,68p,10409b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on summary.pdf (10 pages).
+Output written on summary.pdf (14 pages).
