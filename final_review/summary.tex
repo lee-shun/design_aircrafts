@@ -13,6 +13,14 @@
 \usepackage{geometry}%设置页面格式的宏包
 \geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}%设置页面格式
 
+\usepackage{titlesec}%目录宏包
+\usepackage{titletoc}
+\usepackage{hyperref}%目录超链接
+\hypersetup{
+colorlinks=true,
+linkcolor=black
+}
+
 \usepackage{titlesec}
 \titleformat{\chapter}{\centering\LARGE\bfseries}{第\,\thechapter\,章}{1em}{}
 
@@ -24,10 +32,14 @@
 
 \begin{document}
 \maketitle
+\tableofcontents
 \input{chapter/chapter1.tex}   
 \input{chapter/chapter2.tex}
 \input{chapter/chapter3.tex}
 \input{chapter/chapter4.tex}
+\input{chapter/chapter5.tex}
+\input{chapter/chapter6.tex}
+\input{chapter/chapter7.tex}
 \input{chapter/chapter8.tex}
 
 

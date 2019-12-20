@@ -1,0 +1,155 @@
+\chapter{导弹外形设计}
+\section{总体设计与气动外形设计的关系}
+\subsection{外形与机动性}
+导弹的可用过载由最大升力以及重力决定，最大升力由公式$Y_{max}=c_y^{\alpha}qS\alpha_k$确定；
+而$c_y^{\alpha}$是导弹几何外形以及马赫数的函数，因而几何外形可以决定机动性。
+\subsection{外形与起始质量}
+起始质量设计时要用到折算阻力系数（这个值在前一步是工程师假设的），此系数的是气动外形参数（例如翼型，弹翼几何尺寸等）的函数。
+\section{气动外形设计的主要要求}
+\begin{enumerate}
+    \item 气动特性
+    \item 机动性
+    \item 稳定性
+    \item 操纵性
+    \item 其他（部位安排，发射方式，制导要求等）
+\end{enumerate}
+\section{气动布局形式}
+\subsection{按周向配置形式分类}
+\subsubsection*{平面式(“飞机式”方案)}
+\begin{enumerate}
+    \item 阻力小、质量轻，远程作战
+    \item BTT转弯模式下，升力对准目标
+    \item 结构紧凑，悬挂方便
+    \item 两种转弯模式，STT\&BTT:{\kaishu 平面（侧滑）转弯，侧滑角产生侧向力，本方式的侧向过载较小；
+    协调（倾斜）转弯：滚转后使升力对准所需机动方向，获得的侧向过载大，但是过渡时间长，对付机动目标困难}
+\end{enumerate}
+\subsubsection*{空间配置方案}
+\begin{enumerate}
+    \item “十”或“$\times$”形式，
+    \item 导弹在俯仰上的要求大于偏航方向，采用“H”或者“$\times$”形式比较合适。
+\end{enumerate}
+\subsection{按纵向配置形式分类}
+\subsubsection*{正常式}
+负升力、响应特性（较）慢
+气动耦合小、舵面受载小，
+栅格翼（跨声速阻力大，控制效率低，雷达截面大）
+\subsubsection*{鸭式}
+响应特性快、舵机安排方便、
+失速点低、洗流干扰$\rightarrow$“分离式鸭式布局”,鸭舵前加装固定翼面，提高失速点，提高控制效率。
+\subsubsection*{旋转弹翼式}
+响应特别快，缺点也很明显，铰链力矩大等问题
+\subsubsection*{无尾式}
+弹翼的移动对于弹的稳定性以及操纵效率的影响很大（十分敏感）
+\section{外形几何参数选择}
+\subsection{弹翼设计}
+\subsubsection{弹翼设计基本问题}
+\begin{enumerate}
+    \item 良好的气动特性，机动飞行时升阻比最大，焦点的变化小
+    \item 静稳定度合适
+    \item 刚度强度下，质量小、工艺性好
+    \item 结构紧凑
+    \item 部位安排方便
+\end{enumerate}
+\subsubsection{几何形状的影响}
+\begin{enumerate}
+    \item 展弦比:
+    
+    {\kaishu 
+    \begin{enumerate}[i]
+        \item 展弦比增加，升力系数增加，但是增加的速度减慢，$M_a$大时更加明显
+        \item 展弦比大，升阻比变大，但会受到$M_a$影响
+        \item 展弦比增大，临界攻角降低
+        \item 展弦比增大，结构刚度变差
+        \item [*] 因而亚音速弹用大展弦比，超音速弹反之。高速防空导弹小于2
+    \end{enumerate}
+    }
+    \item 根梢比
+    
+    {\kaishu 
+    \begin{enumerate}[i]
+        \item 超音速条件下，三角翼更加优越：焦点位置移动更小，升阻比大（尤其在小展弦比下）
+        \item 三角翼的压心靠近翼根；
+    \end{enumerate}
+    }
+    \item 后掠角（前缘）
+    
+    {\kaishu 
+    \begin{enumerate}[i]
+        \item 后掠角和马赫锥角的大小判断是否是超音速前缘
+        \item 亚音速时，后掠角大，升力系数降低，超音速不明显；
+        \item 超音速波阻随后掠角增大而降低
+    \end{enumerate}
+
+    结论：
+    \begin{enumerate}[i]
+        \item 主航段为超音速，则需设计成有后掠
+        \item 亚音速时，提高升力系数，选用较小的后掠角，应大于45°
+        \item 为了减小波阻，最大厚度线后掠角不应与马赫线重合
+    \end{enumerate}
+    }
+    \item 翼型
+    
+    \begin{enumerate}[i]
+        \item 菱形翼的减轻波阻的效果最好，但是考虑到加工以及结构上的要求，会选择其他翼型。
+        \item 减小厚度可以减小波阻。
+    \end{enumerate}
+\end{enumerate}
+\subsubsection{弹翼面积}
+机动性（升力）以及射程（阻力）的要求。可根据：
+\begin{enumerate}
+    \item 机动性设计弹翼
+    \item 可用攻角以及机动性要求设计弹翼面积。
+    \item 可用攻角以及展弦比设计弹翼
+\end{enumerate}
+\subsection{舵面的尺寸}
+注意：
+
+\begin{enumerate}
+    \item 控制效率
+    \item 铰链力矩特性
+\end{enumerate}
+主翼控制的导弹：
+
+\begin{enumerate}
+    \item 升力的作用点（附：升力增量--焦点）在导弹质心之后：
+    
+    此时，对于静稳定的导弹，$m_z^{\alpha}$ 、
+    $m_z^{\delta_z}$ 都是小于零的，此时，攻角产生的升力与弹翼偏转产生的升力方向相反，升力有所损失。
+    \item  重合
+    
+    弹翼偏转时，弹身的气动特性没有充分的利用。（弹翼偏转对于升力的贡献是0）
+    \item 之前
+    
+    与情况一相反，有利
+\end{enumerate}
+
+设计准则：
+
+\begin{itemize}
+    \item 舵偏角“够用”即可
+    \item 舵面尺寸不宜过大，防止过载
+\end{itemize}
+
+\subsection{弹身几何参数}
+头部：
+
+\begin{itemize}
+    \item 弹身头部外形设计：圆锥、抛物线、尖拱形、半球形
+    \item 考虑波阻以及气动加热问题（导引头 ）、结构强度等因素。
+\end{itemize}
+
+尾部：
+
+尾部长细比，收缩比，影响到尾部的摩擦阻力以及底部的（压差）阻力
+
+中段：
+
+长细比影响到零升阻力
+
+弹身直径由战斗部，发动机以及外界限制确定。
+
+
+
+
+
+
