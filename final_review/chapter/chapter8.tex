@@ -4,6 +4,20 @@
 有赤道转动惯量$J_Z$和静稳定度$m_z^{\alpha}$
 
 \section{导弹动力学传递函数}
+导弹的动力学方程组线性化之后再进行系数冻结，便可以得到导弹的传递函数。
+短周期扰动方程组经过$\Delta V=0$的假设之后得来，此时变成一个三阶系统，若再忽略重力，则为二阶系统。
+方程为：
+\begin{equation}
+    \begin{array}{l}
+    \frac{\mathrm{d}^{2} \Delta\theta}{\mathrm{d} t^2} = 
+    a_{22}\frac{\mathrm{d}\Delta\theta}{\mathrm{d} t} +
+    a_{24}\Delta\alpha+a_{25}\Delta\delta_z \\
+    \frac{\mathrm{d}\Delta\theta}{\mathrm{d} t} = a_{34}\Delta\alpha+
+    a_{35}\Delta\delta_z \\
+    \alpha = \Delta\vartheta -\Delta\theta
+    \end{array}
+    \label{short_per}
+\end{equation}
 \section{导弹动力学8个特点}
 \begin{enumerate}[1)]
     \item 直联项的影响
@@ -38,6 +52,17 @@
     在0时刻的导弹的法向加速度，鸭式为正，正常式为负。（其实就是考虑直联项的影响）
     \item 静稳定的导弹考虑只短周期时，两个极点是在左半开平面，但长周期未必都在。
     \item 导弹动力学本身就是一个具有反馈的系统，“过载自动驾驶仪就是弹体动力学的自然延伸。”
+    
+    {\kaishu 略去方程\ref{short_per}的直联项的影响，绘制，变换框图之后，可以发现，输入为舵偏角、输出
+    为俯仰角速度的反馈系统，反馈回路的增益为$-\frac{a_{24}}{a_{34}}$，如图\ref{short_per_model}所示，
+    所以从舵偏角到弹道倾角角速度是一个双积分环节。
+    }
+    \begin{figure}[H]
+        \centering
+        \includegraphics[scale = 0.7]{pictures/chapter8/1}
+        \caption{短周期运动简化模型}
+        \label{short_per_model}
+    \end{figure}
 \end{enumerate}
 \section{状态空间表达式下的弹体动力学}
 校正网络的实质是增加开环的零极点，使得根轨迹通过指定位置。
@@ -89,7 +114,7 @@
         \theta
     \end{smallmatrix}    
     \right]
-    、
+    \mbox{、}
     \left[
     \begin{smallmatrix}
         \vartheta \\
@@ -97,7 +122,7 @@
         \alpha
     \end{smallmatrix}    
     \right]
-    或者
+    \mbox{或者}
     \left[
         \begin{smallmatrix}
             \alpha\\

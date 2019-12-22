@@ -1,21 +1,26 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "",
-        "limitSymbolsToIncludedHeaders": true
-      },
-      "includePath": [
-        "/home/lee/catkin_ws/devel/include/**",
-        "/opt/ros/kinetic/include/**",
-        "/home/lee/catkin_ws/src/mavros/libmavconn/include/**",
-        "/home/lee/catkin_ws/src/mavlink/include/**",
-        "/home/lee/catkin_ws/src/mavros/mavros/include/**",
-        "/home/lee/catkin_ws/src/mavros/mavros_msgs/include/**",
-        "/home/lee/catkin_ws/src/mavros/test_mavros/include/**",
-        "/usr/include/**"
-      ],
-      "name": "ROS"
-    }
-  ]
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/lee/catkin_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/lee/catkin_ws/src/mavros/libmavconn/include/**",
+                "/home/lee/catkin_ws/src/mavlink/include/**",
+                "/home/lee/catkin_ws/src/mavros/mavros/include/**",
+                "/home/lee/catkin_ws/src/mavros/mavros_msgs/include/**",
+                "/home/lee/catkin_ws/src/mavros/test_mavros/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "D:\\gcc\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
 }
