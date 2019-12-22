@@ -29,11 +29,16 @@
 \contentsline {subsection}{\numberline {5.4.2}舵面的尺寸}{18}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}弹身几何参数}{18}{subsection.5.4.3}
 \contentsline {chapter}{\numberline {6}导弹部位安排设计}{19}{chapter.6}
+\contentsline {section}{\numberline {6.1}导弹部位安排的基本要求}{19}{section.6.1}
+\contentsline {section}{\numberline {6.2}导弹的部位安排设计}{19}{section.6.2}
 \contentsline {chapter}{\numberline {7}导引弹道分析}{20}{chapter.7}
+\contentsline {section}{\numberline {7.1}导引弹道运动学}{20}{section.7.1}
+\contentsline {section}{\numberline {7.2}导引弹道动力学}{20}{section.7.2}
 \contentsline {chapter}{\numberline {8}战术导弹动力学建模以及动力学特性分析}{21}{chapter.8}
-\contentsline {section}{\numberline {8.1}导弹动力学传递函数}{21}{section.8.1}
-\contentsline {section}{\numberline {8.2}导弹动力学8个特点}{21}{section.8.2}
-\contentsline {section}{\numberline {8.3}状态空间表达式下的弹体动力学}{22}{section.8.3}
-\contentsline {subsection}{\numberline {8.3.1}状态空间}{22}{subsection.8.3.1}
-\contentsline {section}{\numberline {8.4}导弹线性分式变换模型}{22}{section.8.4}
+\contentsline {section}{\numberline {8.1}目的和意义}{21}{section.8.1}
+\contentsline {section}{\numberline {8.2}导弹动力学传递函数}{21}{section.8.2}
+\contentsline {section}{\numberline {8.3}导弹动力学8个特点}{21}{section.8.3}
+\contentsline {section}{\numberline {8.4}状态空间表达式下的弹体动力学}{22}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}状态空间}{22}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}导弹线性分式变换模型}{23}{section.8.5}
 \contentsfinish 
