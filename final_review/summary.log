@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.10.25)  23 DEC 2019 16:27
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.10.25)  23 DEC 2019 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1534,16 +1534,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 48.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `summary.out' has not changed.
 (rerunfilecheck)             Checksum: BAA0C5B645FE8E21F5B1C1E568FF3413.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
  23845 strings out of 492970
  498521 string characters out of 6137297
- 560768 words of memory out of 5000000
+ 560770 words of memory out of 5000000
  27553 multiletter control sequences out of 15000+600000
  538438 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
